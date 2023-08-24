@@ -1,0 +1,3 @@
+/* Inport van alle css bestanden vaar het fijner werken */
+@import url(./body.css); /* body styling */
+@import url(./header.css); /* header & nav styling */

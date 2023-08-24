@@ -1,0 +1,37 @@
+header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+#main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.main-nav nav {
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.main-nav img {
+    height: 50px;
+    display: flex;
+}
+
+#main-nav a {
+    color: seashell;
+    text-decoration: underline;
+}
+
+.logo {
+    height: 50px;
+}
+
+.nav {
+    align-items: center;
+}
