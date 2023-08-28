@@ -1,0 +1,19 @@
+#main-content {
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+    opacity: 0.5;
+}
+
+/* Producten in center */
+#product-row-1 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+#product-row-2 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}

@@ -1,0 +1,15 @@
+#main-contact {
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    opacity: 0.5;
+}
+
+#kop-text h3 {
+    margin: 10px;
+}
+
+#mail-tel h5 {
+    margin: 25px;
+}
