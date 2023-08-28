@@ -1,6 +1,19 @@
 /* Inport van alle css bestanden vaar het fijner werken */
-@import url(./body.css); /* body styling */
 @import url(./header.css); /* header & nav styling */
 @import url(./content.css); /* content styling */
 @import url(./contact.css); /* contact styling */
 @import url(./footer.css); /* footer styling */
+
+
+/* Body style */
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}

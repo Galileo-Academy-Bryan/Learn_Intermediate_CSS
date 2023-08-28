@@ -1,9 +1,12 @@
 header {
     height: 69px;
+    background-color: black;
     border-bottom: 1px solid seashell;
     width: 100%;
     display: inline-flex;
     flex-direction: column;
+    top: 0.5%;
+    position: sticky;
 }
 
 #main-nav {
