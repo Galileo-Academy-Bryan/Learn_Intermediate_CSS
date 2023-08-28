@@ -5,8 +5,9 @@ header {
     width: 100%;
     display: inline-flex;
     flex-direction: column;
-    top: 0.5%;
-    position: sticky;
+    top: 0;
+    position: fixed;
+    z-index: 1;
 }
 
 #main-nav {
