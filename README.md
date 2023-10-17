@@ -21,3 +21,10 @@
 
 > in de afbeelding zie je de wat in [Grid] packet zit.
 ![Grid](./README/img/Grid.png)
+
+## In de map [Transitions] zit het volgende.
+- De map met de naam [Les 1] is CSS Transitions
+- De map met de naam [Project 1] is Transitions - 20,000 Leagues Under the Sea
+
+> in de afbeelding zie je de wat in [Transitions] packet zit.
+![Transitions](./README/img/Transitions.png)
