@@ -36,4 +36,3 @@
 
 > in de afbeelding zie je de wat in [Learn Responsive Design] packet zit.
 ![Learn Responsive Design](./README/img/Learn_Responsive_Design.png)
-![Alt text](image.png)
