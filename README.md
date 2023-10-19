@@ -28,3 +28,12 @@
 
 > in de afbeelding zie je de wat in [Transitions] packet zit.
 ![Transitions](./README/img/Transitions.png)
+
+## In de map [Learn Responsive Design] zit het volgende.
+- De map met de naam [Les 1] is Sizing Elements
+- De map met de naam [Les 2] is Media Queries
+- De map met de naam [Project 1] is Tsunami Coffee
+
+> in de afbeelding zie je de wat in [Learn Responsive Design] packet zit.
+![Learn Responsive Design](./README/img/Learn_Responsive_Design.png)
+![Alt text](image.png)
