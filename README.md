@@ -36,3 +36,11 @@
 
 > in de afbeelding zie je de wat in [Learn Responsive Design] packet zit.
 ![Learn Responsive Design](./README/img/Learn_Responsive_Design.png)
+
+## In de map [variables and functions] zit het volgende.
+- De map met de naam [Les 1] is CSS Variables
+- De map met de naam [Les 2] is CSS Functions
+- De map met de naam [Project 1] is Curious Ornithologist
+
+> in de afbeelding zie je de wat in [variables and functions] packet zit.
+![variables and functions](./README/img/variables_and_functions.png)
