@@ -41,7 +41,7 @@
     --text: var(--secondary-black);
     --border-color: var(--accent-blue);
     --bg-custom: var(--drop-down-custom);
-    --bird: var(var(--main-bird));
+    --bird: var(--main-bird);
   }
   
   /* Dark theme code goes below */
@@ -52,7 +52,7 @@
     --text: var(--text-color-dark-mode);
     --border-color: var(--accent-blue);
     --bg-custom: var(--drop-down-custom);
-    --bird: var(var(--night-bird));
+    --bird: var(--night-bird);
   }
   
   /* Custom theme code goes below */
@@ -63,8 +63,10 @@
     --text: var(--custom-font);
     --border-color: var( --custom-accent);
     --bg-custom: var(--custom-drop);
-    --bird: var(var(--main-bird));
-    
+    --bird: var(--main-bird);
+    --clip1: var(--path-value-1);
+    --clip2: var(--path-value-2);
+    --clip3: var(--path-value-3);
   }
    
   #dark::before {
@@ -109,6 +111,7 @@
     margin-bottom: 1em;
     padding-bottom: 2.5em;
     text-align: center;  
+    clip-path: polygon(var(--clip1) 0%, var(--clip2) 0%, var(--clip3) var(--clip3), 0% var(--clip3));
   }
   
   main {
