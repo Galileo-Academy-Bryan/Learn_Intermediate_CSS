@@ -25,6 +25,13 @@
     --custom-secondary-bg: #12181b;
     --custom-accent: #ff3f3f;
     --custom-drop: #454e56;
+
+    --path-value-1: 20%;
+    --path-value-2: 80%;
+    --path-value-3: 100%;
+
+    --main-bird: url('images/hummingbird.jpg');
+    --night-bird: url('images/owl.jpg');
   }
   
   .light {
@@ -34,6 +41,7 @@
     --text: var(--secondary-black);
     --border-color: var(--accent-blue);
     --bg-custom: var(--drop-down-custom);
+    --bird: var(var(--main-bird));
   }
   
   /* Dark theme code goes below */
@@ -44,16 +52,19 @@
     --text: var(--text-color-dark-mode);
     --border-color: var(--accent-blue);
     --bg-custom: var(--drop-down-custom);
+    --bird: var(var(--night-bird));
   }
   
   /* Custom theme code goes below */
   .custom-theme {
     --bg: var(--custom-main-bg);
-    --bg-nav: linear-gradient(to bottom, var(--custom-accent), var(--secondary-black));
+    --bg-nav: linear-gradient(to bottom, var(--custom-accent), var(--custom-secondary-bg));
     --bg-dropdown: var(--custom-main-bg);
     --text: var(--custom-font);
     --border-color: var( --custom-accent);
     --bg-custom: var(--custom-drop);
+    --bird: var(var(--main-bird));
+    
   }
    
   #dark::before {
@@ -199,7 +210,7 @@
   }
   
   .subhead-1 {
-    background-image: url('https://static-assets.codecademy.com/Courses/Learn-CSS/Projects/bird2.jpg');
+    background-image: var(--bird);
   }
   
   .subhead-2 {
