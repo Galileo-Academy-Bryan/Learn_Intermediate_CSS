@@ -42,6 +42,9 @@
     --border-color: var(--accent-blue);
     --bg-custom: var(--drop-down-custom);
     --bird: var(--main-bird);
+    --clip1: var(--path-value-1);
+    --clip2: var(--path-value-2);
+    --clip3: var(--path-value-3);
   }
   
   /* Dark theme code goes below */
@@ -53,6 +56,9 @@
     --border-color: var(--accent-blue);
     --bg-custom: var(--drop-down-custom);
     --bird: var(--night-bird);
+    --clip1: var(--path-value-1);
+    --clip2: var(--path-value-2);
+    --clip3: var(--path-value-3);
   }
   
   /* Custom theme code goes below */
@@ -215,6 +221,12 @@
   .subhead-1 {
     background-image: var(--bird);
   }
+
+  .subhead-1:hover {
+    filter: hue-rotate(3.142rad);
+    transition: filter 0.5s ease-in;
+    cursor: pointer;
+  }
   
   .subhead-2 {
     background-image: url('https://static-assets.codecademy.com/Courses/Learn-CSS/Projects/bird3.jpg');
@@ -224,6 +236,11 @@
     background-image: url('https://static-assets.codecademy.com/Courses/Learn-CSS/Projects/bird4.jpg');
   }
   
+  .block-1:hover {
+    filter: blur(1.2px);
+    transition: filter 0.5s ease-in;
+    cursor: pointer;
+  }
   
   .block-2 {
     background-image: url('https://static-assets.codecademy.com/Courses/Learn-CSS/Projects/bird5.jpg');
